@@ -23,7 +23,8 @@ def request_json(url, method="GET", payload=None, headers=None):
         request_headers.update(headers)
     req = urllib.request.Request(url, data=body, headers=request_headers, method=method)
     with urllib.request.urlopen(req, timeout=25) as response:
-        return json.loads(response.read().decode("utf-8"))
+        raw = response.read().decode("utf-8")
+        return json.loads(raw) if raw.strip() else {}
 
 
 def get_public_stats():
