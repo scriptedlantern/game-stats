@@ -141,9 +141,11 @@ def main():
     # Pull private analytics once per UTC day to keep API usage modest.
     last_analytics_date = data.get("analyticsUpdatedDate")
     today = now.date().isoformat()
-    if last_analytics_date != today:
+    analytics_was_not_configured = ROBLOX_API_KEY and not data.get("analyticsConfigured", False)
+    if last_analytics_date != today or analytics_was_not_configured:
         refresh_analytics(data)
         data["analyticsUpdatedDate"] = today
+        data["analyticsConfigured"] = bool(ROBLOX_API_KEY)
 
     DATA_FILE.write_text(json.dumps(data, indent=2), encoding="utf-8")
     print(f"{public['name']}: {public['ccu']} concurrent players; saved dashboard data.")
