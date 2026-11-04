@@ -1,0 +1,24 @@
+{
+  "updatedAt": null,
+  "current": {
+    "name": "Click For Free",
+    "ccu": null,
+    "visits": null,
+    "favorites": null,
+    "likes": null,
+    "dislikes": null
+  },
+  "ccuHistory": [],
+  "analytics": {
+    "enabled": false,
+    "DailyRevenue": [],
+    "DailyActiveUsers": [],
+    "ForwardD1Retention": [],
+    "ForwardD7Retention": [],
+    "ForwardD30Retention": []
+  },
+  "alerts": {
+    "thresholds": [50, 75, 100],
+    "active": []
+  }
+}
