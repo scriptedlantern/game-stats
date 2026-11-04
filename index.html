@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#090d18">
+  <meta name="description" content="GameStats — Roblox experience analytics dashboard.">
+  <title>GameStats · Roblox Analytics</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <a class="brand" href="#"><span class="brand-mark">G</span><span>Game<span class="brand-accent">Stats</span></span></a>
+      <div class="side-label">WORKSPACE</div>
+      <a class="nav-link active" href="#overview"><span class="nav-icon">▦</span> Overview</a>
+      <a class="nav-link" href="#engagement"><span class="nav-icon">◷</span> Engagement</a>
+      <a class="nav-link" href="#monetization"><span class="nav-icon">◈</span> Monetization</a>
+      <div class="sidebar-bottom">
+        <div class="game-mini">
+          <div class="game-avatar">CF</div>
+          <div><strong>Click For Free</strong><small>Roblox experience</small></div>
+          <span class="online-dot"></span>
+        </div>
+        <div class="side-foot">POWERED BY ROBLOX DATA</div>
+      </div>
+    </aside>
+
+    <main class="main-content" id="overview">
+      <header class="topbar">
+        <div class="mobile-brand"><span class="brand-mark">G</span> Game<span class="brand-accent">Stats</span></div>
+        <div class="breadcrumb">Workspace <span>/</span> <strong>Overview</strong></div>
+        <div class="top-actions">
+          <span class="live-indicator"><i></i> LIVE MONITOR</span>
+          <button class="icon-button" id="refreshButton" aria-label="Refresh statistics" title="Refresh">↻</button>
+        </div>
+      </header>
+
+      <section class="page-heading">
+        <div>
+          <div class="eyebrow">EXPERIENCE ANALYTICS</div>
+          <h1>Game overview<span class="heading-period">.</span></h1>
+          <p class="muted">Track your game's performance, audience, and growth.</p>
+        </div>
+        <a class="roblox-link" href="https://www.roblox.com/games/13234175149" target="_blank" rel="noopener">Open on Roblox <span>↗</span></a>
+      </section>
+
+      <section class="game-banner panel">
+        <div class="game-banner-icon">CF</div>
+        <div class="game-banner-copy">
+          <div class="game-title-row"><h2 id="gameName">Click For Free</h2><span class="status-pill"><i></i> Public stats</span></div>
+          <p>Universe ID <span class="mono">4614743437</span> <span class="dot-sep">·</span> Place ID <span class="mono">13234175149</span></p>
+        </div>
+        <div class="banner-updated"><span class="muted">LAST UPDATED</span><strong id="lastUpdated">Waiting for first sync</strong></div>
+      </section>
+
+      <section class="stats-grid" aria-label="Key statistics">
+        <article class="stat-card panel accent-card">
+          <div class="stat-top"><span>LIVE PLAYERS</span><span class="stat-icon blue">◉</span></div>
+          <div class="stat-value" id="ccuValue">—</div>
+          <div class="stat-bottom"><span class="live-dot"></span><span id="ccuCaption">Current concurrent users</span></div>
+        </article>
+        <article class="stat-card panel">
+          <div class="stat-top"><span>TOTAL VISITS</span><span class="stat-icon purple">↗</span></div>
+          <div class="stat-value" id="visitsValue">—</div>
+          <div class="stat-bottom">All-time visits</div>
+        </article>
+        <article class="stat-card panel">
+          <div class="stat-top"><span>FAVORITES</span><span class="stat-icon pink">♡</span></div>
+          <div class="stat-value" id="favoritesValue">—</div>
+          <div class="stat-bottom">Players who favorited</div>
+        </article>
+        <article class="stat-card panel">
+          <div class="stat-top"><span>LIKES</span><span class="stat-icon green">✦</span></div>
+          <div class="stat-value" id="likesValue">—</div>
+          <div class="stat-bottom"><span id="likeRatio">Public rating data</span></div>
+        </article>
+      </section>
+
+      <section class="content-grid">
+        <article class="panel chart-panel" id="engagement">
+          <div class="panel-heading">
+            <div><div class="eyebrow">REAL-TIME TRACKING</div><h3>Concurrent players</h3><p class="muted small">Your collected CCU history</p></div>
+            <span class="range-chip">LAST 24 HOURS</span>
+          </div>
+          <div class="chart-legend"><span><i class="legend-dot blue-dot"></i> Players online</span><span id="ccuPoints">No history yet</span></div>
+          <div class="chart-wrap"><svg id="ccuChart" viewBox="0 0 720 230" preserveAspectRatio="none" role="img" aria-label="Concurrent player history chart"><text x="360" y="115" text-anchor="middle" class="chart-empty">Waiting for collected data…</text></svg></div>
+          <div class="chart-axis"><span>24h ago</span><span>12h ago</span><span>Now</span></div>
+        </article>
+
+        <article class="panel milestone-panel">
+          <div class="panel-heading"><div><div class="eyebrow">GROWTH TARGETS</div><h3>CCU milestones</h3><p class="muted small">Automatic Discord alerts</p></div><span class="target-icon">⌁</span></div>
+          <div class="milestone-list">
+            <div class="milestone-row"><div class="milestone-label"><span class="milestone-bullet"></span><strong>50 players</strong></div><span class="milestone-state" id="milestone50">Waiting</span></div>
+            <div class="milestone-track"><i id="bar50"></i></div>
+            <div class="milestone-row"><div class="milestone-label"><span class="milestone-bullet purple-bullet"></span><strong>75 players</strong></div><span class="milestone-state" id="milestone75">Waiting</span></div>
+            <div class="milestone-track"><i id="bar75"></i></div>
+            <div class="milestone-row"><div class="milestone-label"><span class="milestone-bullet pink-bullet"></span><strong>100 players</strong></div><span class="milestone-state" id="milestone100">Waiting</span></div>
+            <div class="milestone-track"><i id="bar100"></i></div>
+          </div>
+          <p class="milestone-note">Alerts trigger when CCU crosses a target. Add a Discord webhook secret to enable notifications.</p>
+        </article>
+      </section>
+
+      <section class="section-heading" id="monetization"><div><div class="eyebrow">CREATOR ANALYTICS</div><h2>Engagement & revenue</h2><p class="muted">Private analytics appear after you connect a Roblox Open Cloud API key.</p></div><span class="secure-chip">⌑ PRIVATE DATA</span></section>
+      <section class="analytics-grid">
+        <article class="panel analytics-card"><div class="analytics-card-head"><span class="analytics-icon green">◈</span><span class="data-tag" id="revenueStatus">API KEY NEEDED</span></div><div class="analytics-label">DAILY REVENUE</div><div class="analytics-value" id="revenueValue">— <small>R$</small></div><p class="muted small" id="revenueCaption">Robux earned per day</p><div class="sparkline" id="revenueSpark"></div></article>
+        <article class="panel analytics-card"><div class="analytics-card-head"><span class="analytics-icon blue">◉</span><span class="data-tag" id="dauStatus">API KEY NEEDED</span></div><div class="analytics-label">DAILY ACTIVE USERS</div><div class="analytics-value" id="dauValue">—</div><p class="muted small">Unique players per day</p><div class="sparkline" id="dauSpark"></div></article>
+        <article class="panel analytics-card retention-card"><div class="analytics-card-head"><span class="analytics-icon purple">↺</span><span class="data-tag" id="retentionStatus">API KEY NEEDED</span></div><div class="analytics-label">PLAYER RETENTION</div><div class="retention-values"><div><strong id="d1Value">—</strong><small>D1</small></div><div><strong id="d7Value">—</strong><small>D7</small></div><div><strong id="d30Value">—</strong><small>D30</small></div></div><p class="muted small">Players returning after 1, 7, and 30 days</p></article>
+      </section>
+
+      <footer class="footer"><span>GameStats <span class="footer-dot">·</span> Built for creators</span><span>Data refreshes automatically through GitHub Actions</span></footer>
+      <div class="toast" id="toast" role="status"></div>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
