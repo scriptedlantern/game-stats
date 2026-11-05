@@ -1,9 +1,9 @@
-# Scheduled collector; this workflow must remain on the default branch.
+# Scheduled collector; keep this workflow on the default branch.
 name: GameStats collector and deploy
 
 on:
   schedule:
-    - cron: "2-59/5 * * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -40,7 +40,6 @@ jobs:
             git config user.email "gamestats-bot@users.noreply.github.com"
             git add data.json
             git commit -m "Update Roblox game statistics"
-            # Incorporate any commits pushed after this workflow checked out main.
             git fetch origin main
             git rebase origin/main
             git push
