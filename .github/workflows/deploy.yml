@@ -1,3 +1,4 @@
+# Scheduled collector; this workflow must remain on the default branch.
 name: GameStats collector and deploy
 
 on:
