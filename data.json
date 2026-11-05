@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-05T16:22:43Z",
+  "updatedAt": "2026-11-05T22:09:19Z",
   "current": {
-    "name": "[\u2708\ufe0f SKINS] Dont Recline!",
-    "ccu": 1,
-    "visits": 335,
+    "name": "[\ud83c\udf40 SKILL] Dont Recline!",
+    "ccu": 0,
+    "visits": 397,
     "favorites": 4,
     "likes": 2,
-    "dislikes": 4
+    "dislikes": 5
   },
   "ccuHistory": [
     {
@@ -28,6 +28,10 @@
     {
       "time": "2026-11-05T16:22:43Z",
       "ccu": 1
+    },
+    {
+      "time": "2026-11-05T22:09:19Z",
+      "ccu": 0
     }
   ],
   "analytics": {
