@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-05T02:17:09Z",
+  "updatedAt": "2026-11-05T07:59:02Z",
   "current": {
     "name": "[\u2708\ufe0f SKINS] Dont Recline!",
-    "ccu": 1,
-    "visits": 178,
+    "ccu": 0,
+    "visits": 242,
     "favorites": 3,
     "likes": 1,
     "dislikes": 3
@@ -20,6 +20,10 @@
     {
       "time": "2026-11-05T02:17:09Z",
       "ccu": 1
+    },
+    {
+      "time": "2026-11-05T07:59:02Z",
+      "ccu": 0
     }
   ],
   "analytics": {
