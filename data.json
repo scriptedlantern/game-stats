@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-05T22:09:19Z",
+  "updatedAt": "2026-11-06T02:24:21Z",
   "current": {
     "name": "[\ud83c\udf40 SKILL] Dont Recline!",
     "ccu": 0,
-    "visits": 397,
-    "favorites": 4,
+    "visits": 452,
+    "favorites": 6,
     "likes": 2,
     "dislikes": 5
   },
@@ -32,6 +32,10 @@
     {
       "time": "2026-11-05T22:09:19Z",
       "ccu": 0
+    },
+    {
+      "time": "2026-11-06T02:24:21Z",
+      "ccu": 0
     }
   ],
   "analytics": {
@@ -44,6 +48,10 @@
       {
         "time": "2026-11-03T00:00:00+00:00",
         "value": 0
+      },
+      {
+        "time": "2026-11-04T00:00:00+00:00",
+        "value": 0
       }
     ],
     "DailyActiveUsers": [
@@ -54,6 +62,10 @@
       {
         "time": "2026-11-03T00:00:00+00:00",
         "value": 35
+      },
+      {
+        "time": "2026-11-04T00:00:00+00:00",
+        "value": 99
       }
     ],
     "ForwardD1Retention": [
@@ -64,6 +76,10 @@
       {
         "time": "2026-11-02T00:00:00+00:00",
         "value": 0
+      },
+      {
+        "time": "2026-11-03T00:00:00+00:00",
+        "value": 0.05882352590560913
       }
     ],
     "ForwardD7Retention": [
@@ -74,6 +90,10 @@
       {
         "time": "2026-10-27T00:00:00+00:00",
         "value": 0
+      },
+      {
+        "time": "2026-10-28T00:00:00+00:00",
+        "value": 0
       }
     ],
     "ForwardD30Retention": [
@@ -83,6 +103,10 @@
       },
       {
         "time": "2026-10-04T00:00:00+00:00",
+        "value": 0
+      },
+      {
+        "time": "2026-10-05T00:00:00+00:00",
         "value": 0
       }
     ]
@@ -95,6 +119,6 @@
     ],
     "active": []
   },
-  "analyticsUpdatedDate": "2026-11-05",
+  "analyticsUpdatedDate": "2026-11-06",
   "analyticsConfigured": true
 }
