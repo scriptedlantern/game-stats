@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T08:01:55Z",
+  "updatedAt": "2026-11-08T15:00:33Z",
   "current": {
     "name": "[\ud83c\udf40 SKILL] Dont Recline!",
     "ccu": 0,
@@ -75,6 +75,10 @@
     },
     {
       "time": "2026-11-08T08:01:55Z",
+      "ccu": 0
+    },
+    {
+      "time": "2026-11-08T15:00:33Z",
       "ccu": 0
     }
   ],
