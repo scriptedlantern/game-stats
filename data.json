@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-08T01:46:30Z",
+  "updatedAt": "2026-11-08T08:01:55Z",
   "current": {
     "name": "[\ud83c\udf40 SKILL] Dont Recline!",
     "ccu": 0,
-    "visits": 827,
+    "visits": 844,
     "favorites": 8,
     "likes": 2,
-    "dislikes": 9
+    "dislikes": 10
   },
   "ccuHistory": [
     {
@@ -71,6 +71,10 @@
     },
     {
       "time": "2026-11-08T01:46:30Z",
+      "ccu": 0
+    },
+    {
+      "time": "2026-11-08T08:01:55Z",
       "ccu": 0
     }
   ],
