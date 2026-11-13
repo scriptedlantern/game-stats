@@ -1,18 +1,14 @@
 {
-  "updatedAt": "2026-11-12T22:19:04Z",
+  "updatedAt": "2026-11-13T02:42:07Z",
   "current": {
     "name": "[\ud83c\udf40 SKILL] Dont Recline!",
     "ccu": 0,
-    "visits": 949,
+    "visits": 953,
     "favorites": 8,
     "likes": 2,
     "dislikes": 14
   },
   "ccuHistory": [
-    {
-      "time": "2026-11-06T02:24:21Z",
-      "ccu": 0
-    },
     {
       "time": "2026-11-06T09:39:32Z",
       "ccu": 0
@@ -120,6 +116,10 @@
     {
       "time": "2026-11-12T22:19:04Z",
       "ccu": 0
+    },
+    {
+      "time": "2026-11-13T02:42:07Z",
+      "ccu": 0
     }
   ],
   "analytics": {
@@ -160,6 +160,10 @@
       {
         "time": "2026-11-10T00:00:00+00:00",
         "value": 0
+      },
+      {
+        "time": "2026-11-11T00:00:00+00:00",
+        "value": 0
       }
     ],
     "DailyActiveUsers": [
@@ -198,6 +202,10 @@
       {
         "time": "2026-11-10T00:00:00+00:00",
         "value": 16
+      },
+      {
+        "time": "2026-11-11T00:00:00+00:00",
+        "value": 12
       }
     ],
     "ForwardD1Retention": [
@@ -236,6 +244,10 @@
       {
         "time": "2026-11-09T00:00:00+00:00",
         "value": 0.0833333283662796
+      },
+      {
+        "time": "2026-11-10T00:00:00+00:00",
+        "value": 0
       }
     ],
     "ForwardD7Retention": [
@@ -274,13 +286,13 @@
       {
         "time": "2026-11-03T00:00:00+00:00",
         "value": 0
+      },
+      {
+        "time": "2026-11-04T00:00:00+00:00",
+        "value": 0
       }
     ],
     "ForwardD30Retention": [
-      {
-        "time": "2026-10-08T00:00:00+00:00",
-        "value": 0
-      },
       {
         "time": "2026-10-09T00:00:00+00:00",
         "value": 0
@@ -291,6 +303,10 @@
       },
       {
         "time": "2026-10-11T00:00:00+00:00",
+        "value": 0
+      },
+      {
+        "time": "2026-10-12T00:00:00+00:00",
         "value": 0
       }
     ]
@@ -303,6 +319,6 @@
     ],
     "active": []
   },
-  "analyticsUpdatedDate": "2026-11-12",
+  "analyticsUpdatedDate": "2026-11-13",
   "analyticsConfigured": true
 }
