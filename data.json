@@ -1,18 +1,14 @@
 {
-  "updatedAt": "2026-11-25T13:42:40Z",
+  "updatedAt": "2026-11-25T22:48:39Z",
   "current": {
-    "name": "[\ud83c\udf40 SKILL] Dont Recline!",
-    "ccu": 1,
-    "visits": 999,
-    "favorites": 8,
-    "likes": 2,
-    "dislikes": 14
+    "name": "GTA 6 [PREORDER]",
+    "ccu": 9,
+    "visits": 1283,
+    "favorites": 11,
+    "likes": 4,
+    "dislikes": 15
   },
   "ccuHistory": [
-    {
-      "time": "2026-11-18T19:09:04Z",
-      "ccu": 0
-    },
     {
       "time": "2026-11-19T01:11:44Z",
       "ccu": 0
@@ -100,6 +96,10 @@
     {
       "time": "2026-11-25T13:42:40Z",
       "ccu": 1
+    },
+    {
+      "time": "2026-11-25T22:48:39Z",
+      "ccu": 9
     }
   ],
   "analytics": {
