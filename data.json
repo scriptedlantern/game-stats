@@ -1,18 +1,14 @@
 {
-  "updatedAt": "2026-11-26T04:31:54Z",
+  "updatedAt": "2026-11-26T14:19:00Z",
   "current": {
-    "name": "GTA 6 [PREORDER RELEASE]",
-    "ccu": 3,
-    "visits": 1879,
-    "favorites": 37,
-    "likes": 21,
-    "dislikes": 19
+    "name": "[TITLE UNAVAILABLE]",
+    "ccu": 0,
+    "visits": 0,
+    "favorites": 0,
+    "likes": null,
+    "dislikes": null
   },
   "ccuHistory": [
-    {
-      "time": "2026-11-19T08:49:16Z",
-      "ccu": 0
-    },
     {
       "time": "2026-11-19T17:44:22Z",
       "ccu": 0
@@ -100,6 +96,10 @@
     {
       "time": "2026-11-26T04:31:54Z",
       "ccu": 3
+    },
+    {
+      "time": "2026-11-26T14:19:00Z",
+      "ccu": 0
     }
   ],
   "analytics": {
