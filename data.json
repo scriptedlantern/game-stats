@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T14:19:00Z",
+  "updatedAt": "2026-11-26T23:05:59Z",
   "current": {
     "name": "[TITLE UNAVAILABLE]",
     "ccu": 0,
@@ -9,10 +9,6 @@
     "dislikes": null
   },
   "ccuHistory": [
-    {
-      "time": "2026-11-19T17:44:22Z",
-      "ccu": 0
-    },
     {
       "time": "2026-11-19T23:53:36Z",
       "ccu": 0
@@ -99,6 +95,10 @@
     },
     {
       "time": "2026-11-26T14:19:00Z",
+      "ccu": 0
+    },
+    {
+      "time": "2026-11-26T23:05:59Z",
       "ccu": 0
     }
   ],
